@@ -4,7 +4,7 @@ provider "aws" {
 
 # 1. Security Group: Fixed syntax (removed semicolons)
 resource "aws_security_group" "blog_sg" {
-  name        = "blog-app-sg-v2"
+  name        = "blog-app-sg-v3"
   description = "Allow HTTP and SSH traffic"
 
   ingress {
